@@ -9,8 +9,8 @@ export class PostService {
    constructor(private http: HttpClient) {}
 
    // get all posts
-   getAllPosts(): Observable<Post[]> {}
+   //getAllPosts(): Observable<Post[]> {}
 
    // get comments based on the index
-   getCommentsForPost(index: number): Observable<Comment[]> {}
+   //getCommentsForPost(index: number): Observable<Comment[]> {}
 }

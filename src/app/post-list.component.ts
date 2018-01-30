@@ -9,7 +9,7 @@ export class PostListComponent  {
 
    @Output() commentsFound = new EventEmitter();
 
-   constructor(private postService: PostService) {}
+   //constructor(private postService: PostService) {}
 
    ngOnInit(): void {}
 
